@@ -19,11 +19,6 @@ def chrome():
 
 def test_title():
     driver = chrome()
-
-    driver.get("https://python.org")
-    assert "Python" in driver.title
+    driver.get("https://google.com")
+    assert "Google" in driver.title
     driver.close()
-
-
-# docker ps
-# docker exec -it <container-id> ls /usr/local/bin/
