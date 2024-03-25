@@ -22,5 +22,3 @@ def test_title():
     driver.get("https://google.com")
     assert "Google" in driver.title
     driver.close()
-
-# just testing the webhook
