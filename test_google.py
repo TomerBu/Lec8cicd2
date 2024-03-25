@@ -11,16 +11,3 @@ def test_title():
     driver.get("https://www.google.com")
     assert driver.title == "Google"
     driver.quit()
-
-
-
-# # create venv # ctrl shift p -> create venv
-# python3 -m venv venv
-# # activate venv
-# linux:
-# . venv/bin/activate
-# windows: 
-# venv\Scripts\activate
-# # pip install pytest
-# # pip install selenium
-# # pip install webdriver_manager
